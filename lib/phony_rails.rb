@@ -138,7 +138,7 @@ module PhonyRails
   end
 
   def self.format_extension(number, ext)
-    ext.present? ? "#{number} x#{ext}" : number
+    ext.present? ? "#{number} ext #{ext}" : number
   end
 
   module Extension
